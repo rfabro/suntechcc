@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuntechCC.API", "SuntechCC.API\SuntechCC.API.csproj", "{653ADECB-DADD-4A91-8667-2BF032A64E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuntechCC.EventSource", "SuntechCC.EventSource\SuntechCC.EventSource.csproj", "{0897C12D-AD60-45C6-9279-80A924260062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653ADECB-DADD-4A91-8667-2BF032A64E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653ADECB-DADD-4A91-8667-2BF032A64E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653ADECB-DADD-4A91-8667-2BF032A64E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653ADECB-DADD-4A91-8667-2BF032A64E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0897C12D-AD60-45C6-9279-80A924260062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0897C12D-AD60-45C6-9279-80A924260062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0897C12D-AD60-45C6-9279-80A924260062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0897C12D-AD60-45C6-9279-80A924260062}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
