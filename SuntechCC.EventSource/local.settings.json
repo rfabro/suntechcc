@@ -1,0 +1,11 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "AzureWebJobsSecretStorageType": "files",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "EventGridEndpoint" : "https://suntech-eventgrid.southeastasia-1.eventgrid.azure.net/api/events",
+        "EventGridKey" : "pdAFzdvWaMefHK04wU7J3tAsf3O4eezspr73yKnAQVg=",
+        "CosmosDbConnectionString" : "AccountEndpoint=https://localhost:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw=="
+    }
+}
