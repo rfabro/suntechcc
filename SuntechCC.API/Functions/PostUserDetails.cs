@@ -40,7 +40,7 @@ public class PostUserDetails
             // deserialize request
             var userDetails = DeserializeIntoUserDetails(requestBody);
 
-            // get container name
+            // initialize change feed and insert into cosmos
             await _cosmosService.InitializeChangeFeed();
             await _cosmosService.InsertIntoCosmos(userDetails);
             return new HttpResponseMessage(HttpStatusCode.Accepted);

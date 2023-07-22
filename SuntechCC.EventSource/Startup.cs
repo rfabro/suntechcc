@@ -16,8 +16,7 @@ namespace SuntechCC.EventSource
         
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            // configuration setup
-
+            // setup configuration
             #region Setup Configuration
             var services = builder.Services;
 

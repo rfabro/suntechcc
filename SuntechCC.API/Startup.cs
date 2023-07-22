@@ -20,8 +20,7 @@ namespace SuntechCC.API
         
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            // configuration setup
-
+            // setup configuration
             #region Setup Configuration
             var services = builder.Services;
 
@@ -43,7 +42,8 @@ namespace SuntechCC.API
 
             #endregion
 
-            #region Cosmos
+            // setup cosmosdb
+            #region CosmosDb
 
             services.AddSingleton<CosmosClient>((sp) =>
             {
